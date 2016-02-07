@@ -24,7 +24,7 @@ Heading Comp::ReadComp(void)
 	float heading = atan2(raw.YAxis, raw.XAxis);
 
 	if (heading < 0)
-	{
+	{hu,hjuk,
 		heading += 2 * PI;
 	}
 
